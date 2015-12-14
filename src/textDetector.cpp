@@ -104,7 +104,7 @@ int main(int argc, char** argv)
                 color++;
             }
 
-            imshow("TextDetector", SWTimage);
+            imshow("TextDetector", components_image);
             waitKey(1);
         }
         if(!rightFrame.empty())
